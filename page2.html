@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image: url("/media/Antivirus\ Software\ isometric\ animation.gif");
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body><font color="white" style="font-family: Verdana, Geneva, Tahoma, sans-serif ;">
+
+    <div class="text-center text-white mt-5">
+        <h1><b>Lengkapi Data Diri Anda!</b></h1>
+        <p>
+            Silakan masukkan data diri Anda dengan benar. Data yang Anda masukkan akan secara otomatis terekam dan tersimpan di sistem kami!
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <table class="table table-bordered text-white">
+                    <thead>
+                        <tr>
+                            <th class="bg-info" colspan="2">Study Class Registration</th>
+                        </tr>
+                    </thead>
+                    <body>
+                        <tr>
+                            <td>Nama Depan :</td>
+                            <td><input type="text" class="form-control" name="nama_depan" placeholder="Isi nama depan.."></td>
+                        </tr>
+                        <tr>
+                            <td>Nama Belakang: </td>
+                            <td><input type="text" class="form-control" name="nama_belakang" placeholder="Isi nama belakang.."></td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin : </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" name="jenis_kelamin" value="Laki-laki">
+                                    <label class="form-check-label">Laki-laki</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" name="jenis_kelamin" value="Perempuan">
+                                    <label class="form-check-label">Perempuan</label>
+                                </div>  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal lahir :</td>
+                            <td><input type="date" class="form-control" name="tanggal_lahir"></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat :</td>
+                            <td><textarea name="alamat" class="form-control"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Username :</td>
+                            <td><input type="text" class="form-control" name="username" placeholder="Isi username Anda.."></td>
+                        </tr>
+                        <tr>
+                            <td>Password :</td>
+                            <td><input type="password" class="form-control" name="password"></td>
+                        </tr>
+                        <tr>
+                            <td>Upload Foto :</td>
+                            <td><input type="file" class="form-control" name="upload_foto"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-center"><input type="submit" class="btn btn-primary" value="Kirim"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
