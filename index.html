@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Belajar HTML Dasar</title>
-</head>
+  </head>
+  <style>
+    body {
+      display: flex;
+      margin: 0;
+      height: 100vh;
+    }
+    iframe {
+      border: none;
+    }
+    .left {
+      width: 30%;
+    }
+    .right {
+      width: 70%;
+    }
+  </style>
 
-<!-- frameset cols ini gunanya untuk bagi layar -->
-    <frameset cols="30%, 70%" border="0">
-    <frame name="halaman1" src="/page1.html">
-    <frame name="halaman2" src="/page2.html">
-    </frameset>
+  <iframe class="left" src="page1.html" name="halaman1"></iframe>
+  <iframe class="right" src="page2.html" name="halaman2"></iframe>
 
-<body>
-
-</body>
+  <body></body>
 </html>
